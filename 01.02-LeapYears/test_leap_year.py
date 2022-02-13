@@ -31,9 +31,5 @@ def test_year_1996_is_leap():
     assert is_leap_year(1996) is True
 
 
-# def test_year_1900_is_common():
-#    assert is_leap_year(1996) is False
-
-
-def test_year_2010_is_common():
-    assert is_leap_year(2010) is False
+def test_year_1900_is_common():
+    assert is_leap_year(1900) is False

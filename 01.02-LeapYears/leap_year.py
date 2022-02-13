@@ -3,7 +3,7 @@
 
 
 def is_leap_year(number):
-    if not number % 4:
+    if not number % 4 and (number % 100 or not number % 400):
         return True
     else:
         return False
