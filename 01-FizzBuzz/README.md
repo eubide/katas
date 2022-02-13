@@ -1,5 +1,7 @@
 # Read Me
 
+## Description
+
 https://www.cyber-dojo.org/creator/choose_problem
 
 Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
@@ -30,12 +32,16 @@ Buzz
 ... etc up to 100
 ```
 
-**Notes**
+## Notes
 
-Coverage
+**Coverage**
 
 ```
 pytest --cov=fizzbuzz
 
 pytest --cov=fizzbuzz --cov-report=term-missing --cov-branch
 ```
+
+**References**
+
+https://docs.pytest.org/en/6.2.x/parametrize.html
