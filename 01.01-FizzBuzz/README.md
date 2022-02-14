@@ -32,12 +32,18 @@ Buzz
 
 ## Notes
 
-**Coverage**
+**coverage**
 
 ```
 pytest --cov=fizzbuzz
 
 pytest --cov=fizzbuzz --cov-report=term-missing --cov-branch
+```
+
+**mutan test**
+
+```
+mutmut run --paths-to-mutate fizzbuzz.py
 ```
 
 **References**
